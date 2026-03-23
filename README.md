@@ -1,25 +1,20 @@
-<div align="center">
-<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
+# blackroad-analytics
 
-# BlackRoad Analytics
+BlackRoad Analytics — D1 page view tracking, aggregation, and reporting.
 
-**D1 page view tracking and reporting across all BlackRoad domains.**
+## Organization
 
-[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
-</div>
+**BlackRoad-OS-Inc** — Corporate root — all IP, strategy, and governance
 
----
+## BlackRoad OS
 
-## How It Works
+BlackRoad OS is a distributed AI operating system — 20 domains, 668 repositories, 1,000 AI agents, and sovereign infrastructure running on Raspberry Pis and Hailo-8 accelerators. No cloud dependency.
 
-A lightweight tracking pixel/script on each BlackRoad site sends page views to a Cloudflare Worker, which stores them in D1. Dashboard queries aggregate by domain, path, referrer, and time.
+- [blackroad.io](https://blackroad.io) — Main platform
+- [docs.blackroad.io](https://docs.blackroad.io) — Documentation
+- [GitHub](https://github.com/BlackRoad-OS-Inc) — This organization
 
-## Stack
+**Language:** JavaScript
 
-- Cloudflare Workers (JavaScript)
-- D1 (SQLite) for event storage
-- Aggregation queries for dashboards
 
----
-
-*Copyright (c) 2024-2026 BlackRoad OS, Inc. All rights reserved.*
+*© 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
